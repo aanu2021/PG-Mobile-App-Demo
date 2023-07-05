@@ -85,47 +85,6 @@ const PaymentPage = () => {
         {/* Content Section  */}
         <View style={{ flex: 1 }}>
             <Editor />
-            {/* <View style={{ flex: 1 }}>
-                <TextInput placeholder="Enter page description" style={styles.descriptionBox} autoFocus={false} />
-            </View>
-            <View style={{
-                flex: 1, height: 120, borderWidth: 1,
-                borderColor: "#d7dedd",
-                marginBottom: 20, marginLeft: 20, marginRight: 20
-            }}>
-                <View style={{ flex: 1, flexDirection: "row" }}>
-                    <View style={{ flex: 1 }}>
-                        <TextInput placeholder="Menu" style={{ borderWidth: 0.5, borderColor: "black", margin: 5, fontSize: 15 }} />
-                    </View>
-                    <View style={{ flex: 3 }}>
-                        <View style={{ flex: 1, flexDirection: "row", justifyContent: "space-around", alignItems: "center", borderWidth: 0.5, borderColor: "black", margin: 5 }}>
-                            <Text style={styles.symbol}>A</Text>
-                            <Text style={styles.symbol}>B</Text>
-                            <Text style={[styles.symbol, { fontStyle: "italic" }]}>I</Text>
-                            <Text style={[styles.symbol, { textDecorationLine: "underline" }]}>U</Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={{ flex: 1 }}>
-                    <View style={{ flex: 1, flexDirection: "row", justifyContent: "space-evenly", alignItems: "center", marginLeft: 25 }}>
-                        <View style={{ flex: 1 }}>
-                            <Icon name="align-left" style={styles.icon} />
-                        </View>
-                        <View style={{ flex: 1 }}>
-                            <Icon name="align-right" style={styles.icon} />
-                        </View>
-                        <View style={{ flex: 1 }}>
-                            <Icon name="link" style={styles.icon} />
-                        </View>
-                        <View style={{ flex: 1 }}>
-                            <Icon name="photo" style={styles.icon} />
-                        </View>
-                        <View style={{ flex: 1 }}>
-                            <Icon name="video-camera" style={styles.icon} />
-                        </View>
-                    </View>
-                </View>
-            </View> */}
         </View>
 
         {/* Social Media Icons Section  */}
